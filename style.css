@@ -5,11 +5,20 @@ html {
   height: 100%;
 }
 
-body {
+body{
   align-items: center;
   display: flex;
   font-family: monospace;
   height: 100%;
+  justify-content:space-around ;
+  flex-direction:column
+}
+
+div.operate {
+  align-items: center;
+  display: flex;
+  height : 80%;
+  font-family: monospace;
   justify-content:space-around ;
   flex-direction:column
 
@@ -20,4 +29,12 @@ button {
   font-size: 20pt;
   height: 50px;
   width: 500px;
+}
+
+div.player{
+  align-items: center;
+  display: flex;
+  font-family: monospace;
+  height: 20%;
+  flex-direction:column
 }
